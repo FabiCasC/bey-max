@@ -57,7 +57,7 @@ import { Twitter, Linkedin, Youtube, ChevronRight } from 'lucide-react'
 
             {/* Newsletter Signup */}
             <div className="space-y-4 lg:col-span-2">
-                <h3 className="text-lg font-semibold text-[#111827]">Stay Informed</h3>
+                <h3 className="text-lg font-semibold text-[#111827]">Stay Newsletter</h3>
                 <p className="text-[#4B5563]">Subscribe to receive the latest news and updates.</p>
                 <form className="flex" onSubmit={(e) => e.preventDefault()}>
                 <input
