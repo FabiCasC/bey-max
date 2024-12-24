@@ -6,10 +6,10 @@
     children: React.ReactNode;
     }
 
-    export const Button: React.FC<ButtonProps> = ({ size = 'md', className, children }) => {
+    export function Button({ size = 'lg', className, children }: ButtonProps) {
     return (
         <button className={`btn btn-${size} ${className}`}>
         {children}
         </button>
     );
-    };
+    }

@@ -31,8 +31,7 @@
                 size="lg" 
                 className="bg-[#4285F4] hover:bg-[#3B78E7] text-white font-medium px-8 py-3 rounded-full transition-colors shadow-md hover:shadow-lg"
                 >
-                Try Demo Now
-                <ArrowRight className="ml-2 h-5 w-5" />
+                Try Demo
                 </Button>
             </div>
             </div>
