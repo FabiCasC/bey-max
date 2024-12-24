@@ -1,4 +1,6 @@
 import { Award, BarChart3, Brain, BadgeIcon as Certificate, Settings, Users } from 'lucide-react'
+import solo from '../assets/famous.png'
+import colaborativo from '../assets/university.png'
 
 export function BenefitsSection() {
     return (
@@ -20,7 +22,7 @@ export function BenefitsSection() {
                             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full -mr-16 -mt-16" />
                             <div className="relative z-10">
                                 <img 
-                                    src="/doctor-learning.png" 
+                                    src={solo}
                                     alt="Individual Learning" 
                                     className="w-48 h-48 mx-auto mb-6"
                                 />
@@ -59,7 +61,7 @@ export function BenefitsSection() {
                             <div className="absolute top-0 right-0 w-32 h-32 bg-teal-100 rounded-full -mr-16 -mt-16" />
                             <div className="relative z-10">
                                 <img 
-                                    src="/institution-dashboard.png" 
+                                    src= {colaborativo} 
                                     alt="Institutional Benefits" 
                                     className="w-48 h-48 mx-auto mb-6"
                                 />

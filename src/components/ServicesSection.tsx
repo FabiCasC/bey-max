@@ -1,3 +1,4 @@
+import doctor from '../assets/doctors-office.png';
 export function ServicesSection() {
     return (
         <div className="min-h-screen bg-[#F2F7FF] flex items-center">
@@ -28,8 +29,14 @@ export function ServicesSection() {
                             
                             {/* Center Image */}
                             <div className="absolute inset-0 m-auto w-48 h-48 bg-[#E8F5FF] rounded-full flex items-center justify-center">
-                                <img src="/doctor-xray.png" alt="Doctor with X-ray" className="w-32 h-32" />
+                                <img 
+                                    src={doctor} 
+                                    alt="Doctor with X-ray" 
+                                    style={{ width: '200px', height: '240px' }} 
+                                />
                             </div>
+
+
                             
                             {/* Floating Icons */}
                             <img src="/pills.png" alt="" className="absolute top-10 left-10 w-12 h-12" />
