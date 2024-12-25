@@ -1,3 +1,4 @@
+import { PrincipalSection } from "./components/PrincipalSection"
 import { HeroSection } from './components/HeroSection'
 import { ServicesSection } from './components/ServicesSection'
 import { FeaturesGrid } from './components/FeaturesGrid'
@@ -9,6 +10,7 @@ import { Footer } from './components/Footer'
 function App() {
   return (
     <main>
+      <PrincipalSection />
       <HeroSection />
       <ServicesSection />
       <FeaturesGrid />
