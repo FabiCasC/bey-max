@@ -8,18 +8,18 @@
             {/* Video Card */}
             <div className="w-full md:w-1/2 relative">
             <div className="rounded-3xl overflow-hidden relative aspect-[4/3] bg-[#F0FFFE]">
-                <img
-                src="/doctor-image.jpg" // Replace with your image
-                alt="Medical professional"
-                className="w-full h-full object-cover brightness-105 contrast-105"
+                {/* Embed YouTube Video */}
+                <iframe
+                src="https://www.youtube.com/embed/cWRE68E-K58" // YouTube video URL
+                title="Medical professional"
+                className="w-full h-full object-cover"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
                 />
-                <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-16 h-16 rounded-full bg-white/30 backdrop-blur-sm flex items-center justify-center">
-                    <Play className="w-8 h-8 text-white fill-white ml-1" />
-                </div>
-                </div>
+                {/* Button centered over the video */}
             </div>
-            </div>
+        </div>
 
             {/* Content */}
             <div className="w-full md:w-1/2 space-y-5 text-center md:text-left"> {/* Alineación centrada en pantallas pequeñas y a la izquierda en pantallas grandes */}
