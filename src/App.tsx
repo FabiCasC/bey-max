@@ -1,3 +1,4 @@
+import { Navbar } from "./components/NavBar";
 import { PrincipalSection } from "./components/PrincipalSection";
 import { HeroSection } from './components/HeroSection';
 import { ServicesSection } from './components/ServicesSection';
@@ -10,6 +11,7 @@ function App() {
   return (
     <main className="w-full">
       <div className="h-[550px]">
+        <Navbar />
         <PrincipalSection />
       </div>
       <div className="max-h-[600px]">
