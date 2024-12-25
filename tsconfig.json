@@ -1,13 +1,19 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./src/*"]
-    }
-  }
+    },
+    "target": "ESNext", // Compatibilidad con ESNext
+    "module": "ESNext", // Usar módulos de ECMAScript
+    "moduleResolution": "Node", // Resolver módulos al estilo Node.js
+    "types": ["node"], // Incluir los tipos de Node.js
+    "strict": true, // Opciones estrictas
+    "esModuleInterop": true // Permitir interoperabilidad con CommonJS
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
