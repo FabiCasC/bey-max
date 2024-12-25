@@ -1,7 +1,7 @@
     import { useState, useEffect } from 'react'
-    import { FormHeader } from '../components/FormHeader'
-    import { FormContainer } from '../components/FormContainer'
-    import { SecurityNote } from '../components/SecurityNote'
+    import { FormHeader } from './FormHeader'
+    import { FormContainer } from './FormContainer'
+    import { SecurityNote } from './SecurityNote'
 
     export function InterestForm() {
     const [iframeHeight, setIframeHeight] = useState(400)

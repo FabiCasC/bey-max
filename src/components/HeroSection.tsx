@@ -3,7 +3,8 @@
     export function HeroSection() {
     return (
         <div className="w-full min-h-screen bg-white">
-        <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-start gap-12">
+        <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-center gap-12">
+            
             {/* Video Card */}
             <div className="w-full md:w-1/2 relative">
             <div className="rounded-3xl overflow-hidden relative aspect-[4/3] bg-[#F0FFFE]">
@@ -21,7 +22,7 @@
             </div>
 
             {/* Content */}
-            <div className="w-full md:w-1/2 space-y-5">
+            <div className="w-full md:w-1/2 space-y-5 text-center md:text-left"> {/* Alineación centrada en pantallas pequeñas y a la izquierda en pantallas grandes */}
             <span className="text-[#00D1B2] font-medium text-base">
                 Revolutionizing Healthcare
             </span>
@@ -30,7 +31,7 @@
                 Training with AI-Driven Simulations
             </h1>
 
-            <p className="text-[#4B5563] text-lg leading-relaxed max-w-xl">
+            <p className="text-[#4B5563] text-lg leading-relaxed max-w-xl mx-auto">
                 Bey-Max helps healthcare professionals enhance their skills through immersive, adaptive simulations with dynamic AI-generated patients and real-time feedback, ensuring you're ready for any medical challenge.
             </p>
 
@@ -38,6 +39,7 @@
                 Explore the Future of Medical Training
             </button>
             </div>
+            
         </div>
         </div>
     )
